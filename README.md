@@ -66,19 +66,19 @@ Below is a curated comparison of leading hosted SaaS product customization platf
 
 ## 💻 Open-Source GitHub Projects
 
-Open-source product customization repositories sorted descending by GitHub Star Count. Each entry links to the official repository and includes an interactive social star badge linking directly to the repo's stargazers. 🌟
+Open-source product customization repositories sorted descending by GitHub Stars_Count. Each entry links to the official repository and includes an interactive social Stars_Badge linking directly to the repo's stargazers. 🌟
 
 ### 🕹️ Frameworks & 3D Web Configurators
 
-- **[threejs-3d-room-designer](https://github.com/CodyMQ/threejs-3d-room-designer)** [![GitHub stars](https://img.shields.io/github/stars/CodyMQ/threejs-3d-room-designer?style=social&color=white)](https://github.com/CodyMQ/threejs-3d-room-designer/stargazers)  
+- **[threejs-3d-room-designer](https://github.com/CodyMQ/threejs-3d-room-designer)** [![GitHub_Stars](https://img.shields.io/github/stars/CodyMQ/threejs-3d-room-designer?style=social&color=white)](https://github.com/CodyMQ/threejs-3d-room-designer/stargazers)  
   *Stack: React.js, Three.js, WebGL*  
   Comprehensive browser-based 3D room planner and modular product configurator. Demonstrates real-time texture mapping, dynamic material swaps, spatial dimension scaling, and 3D scene customization for home goods and interior fixtures. 🛋️
 
-- **[Industry-Product-Configurator](https://github.com/Unity-Technologies/Industry-Product-Configurator)** [![GitHub stars](https://img.shields.io/github/stars/Unity-Technologies/Industry-Product-Configurator?style=social&color=white)](https://github.com/Unity-Technologies/Industry-Product-Configurator/stargazers)  
+- **[Industry-Product-Configurator](https://github.com/Unity-Technologies/Industry-Product-Configurator)** [![GitHub_Stars](https://img.shields.io/github/stars/Unity-Technologies/Industry-Product-Configurator?style=social&color=white)](https://github.com/Unity-Technologies/Industry-Product-Configurator/stargazers)  
   *Stack: Unity, C#, WebGL / Multi-platform*  
   Lightweight industrial product configurator framework authored by Unity Technologies. Supports visibility toggling, material variants, camera preset transitions, and transform animations for complex mechanical, automotive, and industrial products. 🚗
 
-- **[Product-Configurator (React-Three)](https://github.com/Khushi-Singh25/Product-Configurator)** [![GitHub stars](https://img.shields.io/github/stars/Khushi-Singh25/Product-Configurator?style=social&color=white)](https://github.com/Khushi-Singh25/Product-Configurator/stargazers)  
+- **[Product-Configurator (React-Three)](https://github.com/Khushi-Singh25/Product-Configurator)** [![GitHub_Stars](https://img.shields.io/github/stars/Khushi-Singh25/Product-Configurator?style=social&color=white)](https://github.com/Khushi-Singh25/Product-Configurator/stargazers)  
   *Stack: React, Vite, Three.js*  
   Headless 3D product customization web app loading glTF/GLB models dynamically. Allows end users to alter part colors, textures, and finishes with live 360-degree interactive preview. 👟
 
@@ -86,15 +86,15 @@ Open-source product customization repositories sorted descending by GitHub Star 
 
 ### 🏢 ERP & Platform-Specific Modules
 
-- **[OCA/product-configurator](https://github.com/OCA/product-configurator)** [![GitHub stars](https://img.shields.io/github/stars/OCA/product-configurator?style=social&color=white)](https://github.com/OCA/product-configurator/stargazers)  
+- **[OCA/product-configurator](https://github.com/OCA/product-configurator)** [![GitHub_Stars](https://img.shields.io/github/stars/OCA/product-configurator?style=social&color=white)](https://github.com/OCA/product-configurator/stargazers)  
   *Stack: Python, Odoo ERP*  
   Enterprise-grade Odoo dynamic product configurator maintained by the Odoo Community Association (OCA). Handles complex multi-level attribute dependencies, dynamic bill-of-materials (BOM) generation, and real-time sales price calculation. 📦
 
-- **[customizr](https://github.com/carolineschnapp/customizr)** [![GitHub stars](https://img.shields.io/github/stars/carolineschnapp/customizr?style=social&color=white)](https://github.com/carolineschnapp/customizr/stargazers)  
+- **[customizr](https://github.com/carolineschnapp/customizr)** [![GitHub_Stars](https://img.shields.io/github/stars/carolineschnapp/customizr?style=social&color=white)](https://github.com/carolineschnapp/customizr/stargazers)  
   *Stack: JavaScript, Liquid, Shopify Theme Architecture*  
   Pioneering open-source Shopify customization module designed by Caroline Schnapp. Demonstrates headless line-item properties injection, dynamic custom form elements, and file upload handlers for custom engraving and bespoke order details. 🛍️
 
-- **[vtex-apps/product-customizer](https://github.com/vtex-apps/product-customizer)** [![GitHub stars](https://img.shields.io/github/stars/vtex-apps/product-customizer?style=social&color=white)](https://github.com/vtex-apps/product-customizer/stargazers)  
+- **[vtex-apps/product-customizer](https://github.com/vtex-apps/product-customizer)** [![GitHub_Stars](https://img.shields.io/github/stars/vtex-apps/product-customizer?style=social&color=white)](https://github.com/vtex-apps/product-customizer/stargazers)  
   *Stack: TypeScript, React, VTEX IO*  
   Official VTEX IO storefront product customizer app. Renders dynamic assembly options, attachment items, text personalization fields, and complex add-on services directly integrated into VTEX checkout. 🔌
 
@@ -102,19 +102,19 @@ Open-source product customization repositories sorted descending by GitHub Star 
 
 ### 🛒 WooCommerce Extensions & Plugins
 
-- **[woocommerce-product-customizer](https://github.com/marcusig/woocommerce-product-customizer)** [![GitHub stars](https://img.shields.io/github/stars/marcusig/woocommerce-product-customizer?style=social&color=white)](https://github.com/marcusig/woocommerce-product-customizer/stargazers)  
+- **[woocommerce-product-customizer](https://github.com/marcusig/woocommerce-product-customizer)** [![GitHub_Stars](https://img.shields.io/github/stars/marcusig/woocommerce-product-customizer?style=social&color=white)](https://github.com/marcusig/woocommerce-product-customizer/stargazers)  
   *Stack: PHP, WordPress, WooCommerce*  
   WooCommerce product configurator and visual customization engine allowing shoppers to configure physical goods with real-time live preview layers prior to cart addition. 🎨
 
-- **[snelgraveren-product-designer](https://github.com/temmink/snelgraveren-product-designer)** [![GitHub stars](https://img.shields.io/github/stars/temmink/snelgraveren-product-designer?style=social&color=white)](https://github.com/temmink/snelgraveren-product-designer/stargazers)  
+- **[snelgraveren-product-designer](https://github.com/temmink/snelgraveren-product-designer)** [![GitHub_Stars](https://img.shields.io/github/stars/temmink/snelgraveren-product-designer?style=social&color=white)](https://github.com/temmink/snelgraveren-product-designer/stargazers)  
   *Stack: PHP, JavaScript, Canvas, WooCommerce*  
   Drag-and-drop web-to-print and laser-engraving designer for WooCommerce. Supports custom SVG text pathing, bitmap photo uploads, bounding-box constraints, and print-ready export. 🖨️
 
-- **[Aldono (plogins-addons)](https://github.com/wppoland/plogins-addons)** [![GitHub stars](https://img.shields.io/github/stars/wppoland/plogins-addons?style=social&color=white)](https://github.com/wppoland/plogins-addons/stargazers)  
+- **[Aldono (plogins-addons)](https://github.com/wppoland/plogins-addons)** [![GitHub_Stars](https://img.shields.io/github/stars/wppoland/plogins-addons?style=social&color=white)](https://github.com/wppoland/plogins-addons/stargazers)  
   *Stack: PHP, WordPress / WooCommerce*  
   Lightweight open-source product options plugin for WooCommerce. Adds 7 input field types (text, textarea, number, date, checkbox, select, radio), per-option price adjustment, character limits, and zero custom database table overhead. 🔧
 
-- **[Swatch (plogins-swatch)](https://github.com/wppoland/plogins-swatch)** [![GitHub stars](https://img.shields.io/github/stars/wppoland/plogins-swatch?style=social&color=white)](https://github.com/wppoland/plogins-swatch/stargazers)  
+- **[Swatch (plogins-swatch)](https://github.com/wppoland/plogins-swatch)** [![GitHub_Stars](https://img.shields.io/github/stars/wppoland/plogins-swatch?style=social&color=white)](https://github.com/wppoland/plogins-swatch/stargazers)  
   *Stack: PHP, JavaScript, CSS*  
   Lightweight, accessible variation swatches plugin replacing traditional HTML `<select>` variation dropdowns with responsive color swatches and button pickers. Zero external dependencies and native WooCommerce form integration. 🎯
 
@@ -155,7 +155,7 @@ Contributions to expand this curated list are welcome! 🚀
 2. Add your SaaS product or open-source repository into the appropriate section.
 3. For open-source entries, ensure you include:
    - Name and direct GitHub link
-   - Social star badge linking to `/stargazers`
+   - Social Stars_Badge linking to `/stargazers`
    - Primary tech stack and 1–2 factual description sentences
 4. For SaaS entries, supply accurate pricing and transparent free-tier/trial terms.
 5. Submit a Pull Request with a concise summary of additions.
