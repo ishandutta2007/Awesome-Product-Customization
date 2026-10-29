@@ -1,189 +1,137 @@
-# Awesome-Product-Customization
+# Awesome Product Customization: Top Product Options, Configurator & Personalization Ecosystem
 
-## Top Product Customization Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Tracked Repos](https://img.shields.io/badge/Open--Source%20Repos-Curated-blue.svg)](https://github.com/ishandutta2007/Awesome-Product-Customization)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Product-Customization/blob/main/README.md#how-to-contribute)
 
+> A curated list of production-grade SaaS products, 3D product configurators, and open-source GitHub projects for **Product Customization**, **Product Options**, **Custom Fields**, and **Visual Personalization Workflows** across Shopify, WooCommerce, PrestaShop, VTEX, and headless architectures.
 
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Product Options, Custom Fields & Personalization Workflows*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Product Customization**. These tools enable merchants to offer text fields, file uploads, color swatches, conditional options, and price add-ons on product pages—turning standard catalog items into personalized products without hitting platform variant limits.
-
-
-
-**Examples** include Shopify Line-Item Properties, Bold Product Options, Infinite Options, Hulk Product Options, Zepto Product Personalizer, Variant Option Product Options, Customify, QSM Options, Kickflip, and King Product Options (the category leaders).
-
-
-
-**Open-source emphasis**: Product Customization is a domain where open-source tooling is **platform-specific and scattered**. For WooCommerce, **Aldono** provides a free GPL-licensed product options plugin with seven field types, paid/free options, and automatic price adjustment . **Swatch** replaces WooCommerce variation dropdowns with accessible color/button swatches . For Shopify, there is **no mature open-source app equivalent**—the platform's app ecosystem is dominated by commercial SaaS tools, though native **Line-Item Properties** offer a free code-level path for basic customization . For headless/custom builds, **Product-Configurator** demonstrates a 3D visualization approach with Three.js , and **product-variants-core** provides a type-safe engine for variant constraints and pricing logic .
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Shopify Line-Item Properties](https://help.shopify.com/en/manual/online-store/themes/customizing-themes)**  
-
-  Shopify's native mechanism for collecting custom information on product pages without an app; implemented by editing theme code to add form fields with `properties[...]` names, which carry through to cart, checkout, and order details . **Free and foundational**—no price add-ons or conditional logic, but the only zero-cost customization path on Shopify.
-
-
-
-- **[Bold Product Options (SC Product Options)](https://apps.shopify.com/product-options)**  
-
-  Long-standing Shopify product options app (since 2012, now SC Product Options by Shop Circle); offers unlimited options, file uploads, color swatches, conditional logic (Premium tier), and price add-ons; plans range from $14.99 to $39.99/month with a free developer tier .
-
-
-
-- **[Infinite Options](https://apps.shopify.com/custom-options)**  
-
-  One of the most established Shopify customization apps (2,300+ reviews); provides unlimited options, file uploads, conditional logic, price add-ons, image/color swatches, and product bundles; single Essential plan at $12.99/month .
-
-
-
-- **[Hulk Product Options](https://apps.shopify.com/hulk-product-options)**  
-
-  Shopify app with tiered plans ($10–$49.90/month, no free tier for paid stores); Basic covers 12 option types with swatches, file uploads, and price add-ons; Advanced adds conditional logic and cart editing; Enterprise adds inventory/SKU management, formula-based options, and POS compatibility . Supports Shopify B2B catalogs .
-
-
-
-- **[Zepto Product Personalizer](https://apps.shopify.com/product-personalizer)**  
-
-  Visual personalization app with live preview on product images; offers 22+ option types, conditional logic, price add-ons, multi-file uploads, and font/color pickers; plans from $9.99/month with order volume limits .
-
-
-
-- **[Variant Option Product Options](https://apps.shopify.com/variant-option-product-options)**  
-
-  Relentless Apps' Shopify customization tool with a free Starter plan (1 product) and paid tiers at $9.99/$19.99/month; provides unlimited options, file uploads, color picker, and conditional logic (Advanced tier only) .
-
-
-
-- **[Customify](https://apps.shopify.com/customify)**  
-
-  Shopify custom product builder app with 101 reviews (4.4 average) and ~1,761 active installs as of late 2026; installs have declined year-over-year .
-
-
-
-- **[Kickflip](https://gokickflip.com/)**  
-
-  Product customizer with visual/live preview; integrates via Shopify App Embed with two modes (full-page customizer or "Customize" button modal); supports button text translation and custom CSS styling .
-
-
-
-- **[King Product Options](https://apps.shopify.com/king-product-options)**  
-
-  High-volume Shopify options app with ~44,000 active installs; 488 reviews averaging 4.7; offers unlimited options with straightforward setup and Shopify Admin integration .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### WooCommerce Plugins
-
-
-
-- **[Aldono](https://plogins.com/plogins-addons/)**  
-
-  Free, open-source (GPLv2) product options plugin for WooCommerce; adds seven field types (text, textarea, number, date, checkbox, select, radio), per-option paid/free pricing, character limits with live counters, required-field validation, and automatic cart price adjustment . **No custom database tables**—options stored as product metadata; no account or API key required. PRO adds conditional logic, file uploads, swatches, and per-option inventory . **The most complete free WooCommerce product options solution available.**
-
-
-
-- **[Swatch – Variation Swatches for WooCommerce](https://github.com/wppoland/plogins-swatch)**  
-
-  Open-source (GPL) WooCommerce plugin replacing variation `<select>` dropdowns with visual color dots or button/label swatches; accessible (radiogroup semantics, keyboard navigation), no jQuery, no external services, no telemetry . Wires into WooCommerce's native variations form so price/stock update as expected . **The standard open-source swatch solution for WooCommerce.**
-
-
-
-### Shopify-Adjacent / Headless Builds
-
-
-
-- **[Product-Configurator](https://github.com/Khushi-Singh25/Product-Configurator)**  
-
-  Web-based 3D product configurator using React, Vite, and Three.js; lets users customize colors, textures, and parts with live 3D previews; loads glTF models dynamically and is deployable to Vercel or GitHub Pages . **Headless demo/toolkit**—not a Shopify app, but a foundation for building custom 3D configurators on any stack.
-
-
-
-- **[product-variants-core](https://www.npmjs.com/package/product-variants-core)**  
-
-  Type-safe TypeScript library (npm package) for product configuration logic; handles variant generation, constraint rules (e.g., "If A, then not B" in JSON), and dynamic price modifiers . **Infrastructure library** for developers building custom configurators or CPQ tools—not a UI or platform plugin.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Shopify Line-Item Properties (native)** — No open-source app exists, but Shopify's native properties system is free and code-accessible; combined with theme edits, it covers basic text/select/file collection without recurring fees . The Theme Store's "Volume" theme (v3.0+) includes built-in support for custom option blocks (text, checkboxes, dropdowns, date pickers, file uploads, color pickers) without an app .
-
-- **No open-source Shopify app** — The Shopify App Store's product options category is dominated by commercial SaaS; no mature open-source alternative exists that replicates Bold, Infinite Options, or Hulk's feature depth.
-
-
-
-**Frameworks for building custom systems**: For **WooCommerce**, combine **Aldono** (field options + pricing) with **Swatch** (visual variant selection) for a complete free stack . For **Shopify**, the practical free path is native **Line-Item Properties** with theme customization , or a theme with built-in option blocks like Volume ; beyond that, commercial apps are required. For **headless/custom stacks**, **Product-Configurator** provides a 3D visualization foundation  and **product-variants-core** handles constraint logic .
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Product customization tools handling customer-uploaded files and personalization data must consider file storage security, PII handling, and content moderation; uploaded files can carry malware or sensitive personal information.
-
-- **Open-source product customization is platform-asymmetric**—WooCommerce has viable free options (Aldono, Swatch) , while Shopify's ecosystem is almost entirely commercial SaaS. Shopify's native Line-Item Properties provide a free code-level path but lack pricing, conditional logic, and file uploads without custom development .
-
-- Verify license terms for commercial use; Aldono uses GPLv2 , Swatch uses GPL , and product-variants-core is an npm package .
-
-
+Last updated: October 2026.
 
 ---
 
+## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS / Hosted Platforms](#saas--hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+  - [Frameworks & 3D Web Configurators](#frameworks--3d-web-configurators)
+  - [ERP & Platform-Specific Modules](#erp--platform-specific-modules)
+  - [WooCommerce Extensions & Plugins](#woocommerce-extensions--plugins)
+  - [Headless Libraries & Native Toolkits](#headless-libraries--native-toolkits)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
 
-**Made for ecommerce merchants, product managers, theme developers, and customization engineers.**  
+---
 
-Let's make product customization more open, but with clear eyes about the Shopify app ecosystem's commercial dominance.
+## Sector Overview & Market Dynamics
+
+The global product customization and configurator software market is valued at approximately **$1.28 billion to $1.5 billion** (scaling toward **$5.14+ billion by 2030** when paired with broader AI-driven dynamic personalization and CPQ engines at a 15–23% CAGR), embedded within a massive **$100B+** mass-customization and on-demand print/manufacturing ecosystem. 
+
+Market dynamics remain **moderately fragmented and platform-asymmetric rather than winner-take-all**: native platform constraints (such as Shopify's historical 3-option/100-variant limit) created a resilient long tail of specialized third-party app developers and boutique visual CPQ tools, though roll-up aggregators (e.g., Shop Circle acquiring Bold and HulkApps tools) and platform-level API evolutions are steadily driving consolidation at the enterprise tier.
+
+---
+
+## SaaS / Hosted Platforms
+
+Below is a curated comparison of leading hosted SaaS product customization platforms, sorted by estimated parent company scale (revenue/valuation descending).
+
+| Product | Developer / Parent Company | Company Scale (Revenue / Valuation) | Starting Tier Pricing | Free Tier / Trial Limit | Key Capabilities & Architecture |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Shopify Line-Item Properties](https://help.shopify.com/en/manual/online-store/themes/customizing-themes)** | Shopify Inc. (NYSE: SHOP) | ~$12.18B TTM Revenue / ~$215B–$224B Market Cap | $0/mo (Included in Shopify plans starting at $39/mo) | Free forever on any active Shopify store (zero extra app fees) | Core native form properties (`properties[...]`) stored directly on order line items; basic text/file fields without conditional logic or upcharges. |
+| **[Bold Product Options](https://apps.shopify.com/product-options)** | Shop Circle (acquired from Bold Commerce) | ~$43M–$45M ARR / ~$305M+ Total Capital Raised | $14.99/mo (Basic Plan) | 14-day free trial on live stores; free indefinitely on Shopify Partner development stores | Custom option sets, text inputs, radio buttons, file uploads; $39.99/mo tier unlocks conditional logic and price upcharges. |
+| **[Hulk Product Options](https://apps.shopify.com/hulk-product-options)** | HulkApps / Shop Circle | ~$11.6M–$19.1M ARR (Parent acquired / aggregated) | $10.00/mo (Basic Plan) | 7-day free trial; free access restricted to Shopify Partner development stores | 12+ input types, color/image swatches, file uploads, formula-based options, and Shopify B2B catalog support. |
+| **[Infinite Options](https://apps.shopify.com/custom-options)** | ShopPad Inc. | Privately held SaaS (~$5M–$10M est. ARR; $500K Seed) | $12.99/mo (Essential Plan) | 14-day free trial across all features | Unlimited options, dropdowns, radio buttons, conditional visibility, number inputs, and product bundling. |
+| **[Kickflip](https://gokickflip.com/)** | Kickflip (formerly MyCustomizer) | ~$2.3M ARR / Early VC-backed (~$50K+ seed) | $59.00/mo (Base plan) | 14-day free trial (no credit card required upfront) | Real-time multi-component visual configurator, full-page/modal embeds, live color/texture mapping, and translation support. |
+| **[Zepto Product Personalizer](https://apps.shopify.com/product-personalizer)** | Zepto Apps | Bootstrapped SaaS (~$1M–$3M est. ARR) | $9.99/mo (Starter Plan) | 15-day free trial (no permanent free tier on live stores) | Live visual preview on canvas/product images, 22+ option inputs, layer-based graphics, and font selection. |
+| **[Variant Option Product Options](https://apps.shopify.com/variant-option-product-options)** | Relentless Apps | Bootstrapped SaaS (~$500K–$1.5M est. ARR) | $9.99/mo (Basic Plan) | Free forever plan strictly limited to 1 product; 14-day free trial on paid plans | Unlimited options on 1 product for free; paid tier unlocks unlimited products, conditional logic, and add-on pricing. |
+| **[Customify](https://apps.shopify.com/customify)** | Customify | Bootstrapped SaaS (~$300K–$800K est. ARR) | $10.00/mo (Lite Plan) | Free forever tier limited to 3 custom products, 3 paid custom orders/mo, and 256MB file storage (14-day trial on paid tiers) | Drag-and-drop web-to-print personalizer, custom artwork/photo uploads, and print-ready vector/raster exports. |
+| **[King Product Options](https://apps.shopify.com/king-product-options)** | YMQ | Bootstrapped SaaS (~$200K–$600K est. ARR) | $0.00/mo (Free Core App) | Free forever with unlimited products and unlimited options | Free tier includes swatches, file upload fields, text inputs, option templates, and conditional display rules. |
+
+---
+
+## Open-Source GitHub Projects
+
+Open-source product customization repositories sorted descending by GitHub Star Count. Each entry links to the official repository and includes an interactive social star badge linking directly to the repo's stargazers.
+
+### Frameworks & 3D Web Configurators
+
+- **[threejs-3d-room-designer](https://github.com/CodyMQ/threejs-3d-room-designer)** [![GitHub stars](https://img.shields.io/github/stars/CodyMQ/threejs-3d-room-designer?style=social&color=white)](https://github.com/CodyMQ/threejs-3d-room-designer/stargazers)  
+  *Stack: React.js, Three.js, WebGL*  
+  Comprehensive browser-based 3D room planner and modular product configurator. Demonstrates real-time texture mapping, dynamic material swaps, spatial dimension scaling, and 3D scene customization for home goods and interior fixtures.
+
+- **[Industry-Product-Configurator](https://github.com/Unity-Technologies/Industry-Product-Configurator)** [![GitHub stars](https://img.shields.io/github/stars/Unity-Technologies/Industry-Product-Configurator?style=social&color=white)](https://github.com/Unity-Technologies/Industry-Product-Configurator/stargazers)  
+  *Stack: Unity, C#, WebGL / Multi-platform*  
+  Lightweight industrial product configurator framework authored by Unity Technologies. Supports visibility toggling, material variants, camera preset transitions, and transform animations for complex mechanical, automotive, and industrial products.
+
+- **[Product-Configurator (React-Three)](https://github.com/Khushi-Singh25/Product-Configurator)** [![GitHub stars](https://img.shields.io/github/stars/Khushi-Singh25/Product-Configurator?style=social&color=white)](https://github.com/Khushi-Singh25/Product-Configurator/stargazers)  
+  *Stack: React, Vite, Three.js*  
+  Headless 3D product customization web app loading glTF/GLB models dynamically. Allows end users to alter part colors, textures, and finishes with live 360-degree interactive preview.
+
+---
+
+### ERP & Platform-Specific Modules
+
+- **[OCA/product-configurator](https://github.com/OCA/product-configurator)** [![GitHub stars](https://img.shields.io/github/stars/OCA/product-configurator?style=social&color=white)](https://github.com/OCA/product-configurator/stargazers)  
+  *Stack: Python, Odoo ERP*  
+  Enterprise-grade Odoo dynamic product configurator maintained by the Odoo Community Association (OCA). Handles complex multi-level attribute dependencies, dynamic bill-of-materials (BOM) generation, and real-time sales price calculation.
+
+- **[customizr](https://github.com/carolineschnapp/customizr)** [![GitHub stars](https://img.shields.io/github/stars/carolineschnapp/customizr?style=social&color=white)](https://github.com/carolineschnapp/customizr/stargazers)  
+  *Stack: JavaScript, Liquid, Shopify Theme Architecture*  
+  Pioneering open-source Shopify customization module designed by Caroline Schnapp. Demonstrates headless line-item properties injection, dynamic custom form elements, and file upload handlers for custom engraving and bespoke order details.
+
+- **[vtex-apps/product-customizer](https://github.com/vtex-apps/product-customizer)** [![GitHub stars](https://img.shields.io/github/stars/vtex-apps/product-customizer?style=social&color=white)](https://github.com/vtex-apps/product-customizer/stargazers)  
+  *Stack: TypeScript, React, VTEX IO*  
+  Official VTEX IO storefront product customizer app. Renders dynamic assembly options, attachment items, text personalization fields, and complex add-on services directly integrated into VTEX checkout.
+
+---
+
+### WooCommerce Extensions & Plugins
+
+- **[woocommerce-product-customizer](https://github.com/marcusig/woocommerce-product-customizer)** [![GitHub stars](https://img.shields.io/github/stars/marcusig/woocommerce-product-customizer?style=social&color=white)](https://github.com/marcusig/woocommerce-product-customizer/stargazers)  
+  *Stack: PHP, WordPress, WooCommerce*  
+  WooCommerce product configurator and visual customization engine allowing shoppers to configure physical goods with real-time live preview layers prior to cart addition.
+
+- **[snelgraveren-product-designer](https://github.com/temmink/snelgraveren-product-designer)** [![GitHub stars](https://img.shields.io/github/stars/temmink/snelgraveren-product-designer?style=social&color=white)](https://github.com/temmink/snelgraveren-product-designer/stargazers)  
+  *Stack: PHP, JavaScript, Canvas, WooCommerce*  
+  Drag-and-drop web-to-print and laser-engraving designer for WooCommerce. Supports custom SVG text pathing, bitmap photo uploads, bounding-box constraints, and print-ready export.
+
+- **[Aldono (plogins-addons)](https://github.com/wppoland/plogins-addons)** [![GitHub stars](https://img.shields.io/github/stars/wppoland/plogins-addons?style=social&color=white)](https://github.com/wppoland/plogins-addons/stargazers)  
+  *Stack: PHP, WordPress / WooCommerce*  
+  Lightweight open-source product options plugin for WooCommerce. Adds 7 input field types (text, textarea, number, date, checkbox, select, radio), per-option price adjustment, character limits, and zero custom database table overhead.
+
+- **[Swatch (plogins-swatch)](https://github.com/wppoland/plogins-swatch)** [![GitHub stars](https://img.shields.io/github/stars/wppoland/plogins-swatch?style=social&color=white)](https://github.com/wppoland/plogins-swatch/stargazers)  
+  *Stack: PHP, JavaScript, CSS*  
+  Lightweight, accessible variation swatches plugin replacing traditional HTML `<select>` variation dropdowns with responsive color swatches and button pickers. Zero external dependencies and native WooCommerce form integration.
+
+---
+
+### Headless Libraries & Native Toolkits
+
+- **[product-variants-core](https://www.npmjs.com/package/product-variants-core)**  
+  *Stack: TypeScript / Node.js*  
+  Type-safe JavaScript/TypeScript core library for headless CPQ and variant logic. Generates valid variant permutations, enforces JSON conditional constraint rules (e.g., mutually exclusive options), and computes dynamic price modifiers.
+
+---
+
+## How to Contribute
+
+Contributions to expand this curated list are welcome!
+
+1. Fork the repository.
+2. Add your SaaS product or open-source repository into the appropriate section.
+3. For open-source entries, ensure you include:
+   - Name and direct GitHub link
+   - Social star badge linking to `/stargazers`
+   - Primary tech stack and 1–2 factual description sentences
+4. For SaaS entries, supply accurate pricing and transparent free-tier/trial terms.
+5. Submit a Pull Request with a concise summary of additions.
+
+---
+
+## Disclaimer
+
+- This repository is a community-maintained curated educational directory and does not constitute commercial endorsement.
+- All product names, trademarks, and registered trademarks are property of their respective owners.
+- Security note: Production customization engines handling uploaded files and personalized user input must enforce strict file format whitelisting, antivirus/malware scanning, and PII protection compliance (GDPR/CCPA).
