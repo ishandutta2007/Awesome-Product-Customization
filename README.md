@@ -1,41 +1,54 @@
-# Awesome Product Customization: Top Product Options, Configurator & Personalization Ecosystem
+<div align="center">
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tracked Repos](https://img.shields.io/badge/Open--Source%20Repos-Curated-blue.svg)](https://github.com/ishandutta2007/Awesome-Product-Customization)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Product-Customization/blob/main/README.md#how-to-contribute)
+<img src="./assets/banner.svg" alt="Awesome Product Customization Banner" width="100%" />
 
-> A curated list of production-grade SaaS products, 3D product configurators, and open-source GitHub projects for **Product Customization**, **Product Options**, **Custom Fields**, and **Visual Personalization Workflows** across Shopify, WooCommerce, PrestaShop, VTEX, and headless architectures.
+# 🎨 Awesome Product Customization 🛍️
+### ✨ Top Product Options, 3D Configurators & Personalization Ecosystem 🚀
 
-Last updated: October 2026.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Customization"><img src="https://img.shields.io/badge/Open--Source%20Repos-Curated-blue.svg" alt="Curated Open-Source" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Customization/blob/main/README.md#how-to-contribute"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
----
+> 🌟 A curated directory of production-grade SaaS products, 3D product configurators, and open-source GitHub projects for **Product Customization**, **Product Options**, **Custom Fields**, and **Visual Personalization Workflows** across Shopify, WooCommerce, PrestaShop, VTEX, and headless architectures.
 
-## Table of Contents
+📅 *Last updated: October 2026.*
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-  - [Frameworks & 3D Web Configurators](#frameworks--3d-web-configurators)
-  - [ERP & Platform-Specific Modules](#erp--platform-specific-modules)
-  - [WooCommerce Extensions & Plugins](#woocommerce-extensions--plugins)
-  - [Headless Libraries & Native Toolkits](#headless-libraries--native-toolkits)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+</div>
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
 
-The global product customization and configurator software market is valued at approximately **$1.28 billion to $1.5 billion** (scaling toward **$5.14+ billion by 2030** when paired with broader AI-driven dynamic personalization and CPQ engines at a 15–23% CAGR), embedded within a massive **$100B+** mass-customization and on-demand print/manufacturing ecosystem. 
-
-Market dynamics remain **moderately fragmented and platform-asymmetric rather than winner-take-all**: native platform constraints (such as Shopify's historical 3-option/100-variant limit) created a resilient long tail of specialized third-party app developers and boutique visual CPQ tools, though roll-up aggregators (e.g., Shop Circle acquiring Bold and HulkApps tools) and platform-level API evolutions are steadily driving consolidation at the enterprise tier.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [🕹️ Frameworks & 3D Web Configurators](#️-frameworks--3d-web-configurators)
+  - [🏢 ERP & Platform-Specific Modules](#-erp--platform-specific-modules)
+  - [🛒 WooCommerce Extensions & Plugins](#-woocommerce-extensions--plugins)
+  - [⚙️ Headless Libraries & Native Toolkits](#️-headless-libraries--native-toolkits)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
 
 ---
 
-## SaaS / Hosted Platforms
+## 📊 Sector Overview & Market Dynamics
 
-Below is a curated comparison of leading hosted SaaS product customization platforms, sorted by estimated parent company scale (revenue/valuation descending).
+The global product customization and configurator software market is valued at approximately **$1.28 billion to $1.5 billion** (scaling toward **$5.14+ billion by 2030** when paired with broader AI-driven dynamic personalization and CPQ engines at a 15–23% CAGR), embedded within a massive **$100B+** mass-customization and on-demand print/manufacturing ecosystem. 📈
+
+Market dynamics remain **moderately fragmented and platform-asymmetric rather than winner-take-all**: native platform constraints (such as Shopify's historical 3-option/100-variant limit) created a resilient long tail of specialized third-party app developers and boutique visual CPQ tools, though roll-up aggregators (e.g., Shop Circle acquiring Bold and HulkApps tools) and platform-level API evolutions are steadily driving consolidation at the enterprise tier. 🌐
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+Below is a curated comparison of leading hosted SaaS product customization platforms, sorted by estimated parent company scale (revenue/valuation descending). 🏆
 
 | Product | Developer / Parent Company | Company Scale (Revenue / Valuation) | Starting Tier Pricing | Free Tier / Trial Limit | Key Capabilities & Architecture |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -51,73 +64,92 @@ Below is a curated comparison of leading hosted SaaS product customization platf
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
-Open-source product customization repositories sorted descending by GitHub Star Count. Each entry links to the official repository and includes an interactive social star badge linking directly to the repo's stargazers.
+Open-source product customization repositories sorted descending by GitHub Star Count. Each entry links to the official repository and includes an interactive social star badge linking directly to the repo's stargazers. 🌟
 
-### Frameworks & 3D Web Configurators
+### 🕹️ Frameworks & 3D Web Configurators
 
 - **[threejs-3d-room-designer](https://github.com/CodyMQ/threejs-3d-room-designer)** [![GitHub stars](https://img.shields.io/github/stars/CodyMQ/threejs-3d-room-designer?style=social&color=white)](https://github.com/CodyMQ/threejs-3d-room-designer/stargazers)  
   *Stack: React.js, Three.js, WebGL*  
-  Comprehensive browser-based 3D room planner and modular product configurator. Demonstrates real-time texture mapping, dynamic material swaps, spatial dimension scaling, and 3D scene customization for home goods and interior fixtures.
+  Comprehensive browser-based 3D room planner and modular product configurator. Demonstrates real-time texture mapping, dynamic material swaps, spatial dimension scaling, and 3D scene customization for home goods and interior fixtures. 🛋️
 
 - **[Industry-Product-Configurator](https://github.com/Unity-Technologies/Industry-Product-Configurator)** [![GitHub stars](https://img.shields.io/github/stars/Unity-Technologies/Industry-Product-Configurator?style=social&color=white)](https://github.com/Unity-Technologies/Industry-Product-Configurator/stargazers)  
   *Stack: Unity, C#, WebGL / Multi-platform*  
-  Lightweight industrial product configurator framework authored by Unity Technologies. Supports visibility toggling, material variants, camera preset transitions, and transform animations for complex mechanical, automotive, and industrial products.
+  Lightweight industrial product configurator framework authored by Unity Technologies. Supports visibility toggling, material variants, camera preset transitions, and transform animations for complex mechanical, automotive, and industrial products. 🚗
 
 - **[Product-Configurator (React-Three)](https://github.com/Khushi-Singh25/Product-Configurator)** [![GitHub stars](https://img.shields.io/github/stars/Khushi-Singh25/Product-Configurator?style=social&color=white)](https://github.com/Khushi-Singh25/Product-Configurator/stargazers)  
   *Stack: React, Vite, Three.js*  
-  Headless 3D product customization web app loading glTF/GLB models dynamically. Allows end users to alter part colors, textures, and finishes with live 360-degree interactive preview.
+  Headless 3D product customization web app loading glTF/GLB models dynamically. Allows end users to alter part colors, textures, and finishes with live 360-degree interactive preview. 👟
 
 ---
 
-### ERP & Platform-Specific Modules
+### 🏢 ERP & Platform-Specific Modules
 
 - **[OCA/product-configurator](https://github.com/OCA/product-configurator)** [![GitHub stars](https://img.shields.io/github/stars/OCA/product-configurator?style=social&color=white)](https://github.com/OCA/product-configurator/stargazers)  
   *Stack: Python, Odoo ERP*  
-  Enterprise-grade Odoo dynamic product configurator maintained by the Odoo Community Association (OCA). Handles complex multi-level attribute dependencies, dynamic bill-of-materials (BOM) generation, and real-time sales price calculation.
+  Enterprise-grade Odoo dynamic product configurator maintained by the Odoo Community Association (OCA). Handles complex multi-level attribute dependencies, dynamic bill-of-materials (BOM) generation, and real-time sales price calculation. 📦
 
 - **[customizr](https://github.com/carolineschnapp/customizr)** [![GitHub stars](https://img.shields.io/github/stars/carolineschnapp/customizr?style=social&color=white)](https://github.com/carolineschnapp/customizr/stargazers)  
   *Stack: JavaScript, Liquid, Shopify Theme Architecture*  
-  Pioneering open-source Shopify customization module designed by Caroline Schnapp. Demonstrates headless line-item properties injection, dynamic custom form elements, and file upload handlers for custom engraving and bespoke order details.
+  Pioneering open-source Shopify customization module designed by Caroline Schnapp. Demonstrates headless line-item properties injection, dynamic custom form elements, and file upload handlers for custom engraving and bespoke order details. 🛍️
 
 - **[vtex-apps/product-customizer](https://github.com/vtex-apps/product-customizer)** [![GitHub stars](https://img.shields.io/github/stars/vtex-apps/product-customizer?style=social&color=white)](https://github.com/vtex-apps/product-customizer/stargazers)  
   *Stack: TypeScript, React, VTEX IO*  
-  Official VTEX IO storefront product customizer app. Renders dynamic assembly options, attachment items, text personalization fields, and complex add-on services directly integrated into VTEX checkout.
+  Official VTEX IO storefront product customizer app. Renders dynamic assembly options, attachment items, text personalization fields, and complex add-on services directly integrated into VTEX checkout. 🔌
 
 ---
 
-### WooCommerce Extensions & Plugins
+### 🛒 WooCommerce Extensions & Plugins
 
 - **[woocommerce-product-customizer](https://github.com/marcusig/woocommerce-product-customizer)** [![GitHub stars](https://img.shields.io/github/stars/marcusig/woocommerce-product-customizer?style=social&color=white)](https://github.com/marcusig/woocommerce-product-customizer/stargazers)  
   *Stack: PHP, WordPress, WooCommerce*  
-  WooCommerce product configurator and visual customization engine allowing shoppers to configure physical goods with real-time live preview layers prior to cart addition.
+  WooCommerce product configurator and visual customization engine allowing shoppers to configure physical goods with real-time live preview layers prior to cart addition. 🎨
 
 - **[snelgraveren-product-designer](https://github.com/temmink/snelgraveren-product-designer)** [![GitHub stars](https://img.shields.io/github/stars/temmink/snelgraveren-product-designer?style=social&color=white)](https://github.com/temmink/snelgraveren-product-designer/stargazers)  
   *Stack: PHP, JavaScript, Canvas, WooCommerce*  
-  Drag-and-drop web-to-print and laser-engraving designer for WooCommerce. Supports custom SVG text pathing, bitmap photo uploads, bounding-box constraints, and print-ready export.
+  Drag-and-drop web-to-print and laser-engraving designer for WooCommerce. Supports custom SVG text pathing, bitmap photo uploads, bounding-box constraints, and print-ready export. 🖨️
 
 - **[Aldono (plogins-addons)](https://github.com/wppoland/plogins-addons)** [![GitHub stars](https://img.shields.io/github/stars/wppoland/plogins-addons?style=social&color=white)](https://github.com/wppoland/plogins-addons/stargazers)  
   *Stack: PHP, WordPress / WooCommerce*  
-  Lightweight open-source product options plugin for WooCommerce. Adds 7 input field types (text, textarea, number, date, checkbox, select, radio), per-option price adjustment, character limits, and zero custom database table overhead.
+  Lightweight open-source product options plugin for WooCommerce. Adds 7 input field types (text, textarea, number, date, checkbox, select, radio), per-option price adjustment, character limits, and zero custom database table overhead. 🔧
 
 - **[Swatch (plogins-swatch)](https://github.com/wppoland/plogins-swatch)** [![GitHub stars](https://img.shields.io/github/stars/wppoland/plogins-swatch?style=social&color=white)](https://github.com/wppoland/plogins-swatch/stargazers)  
   *Stack: PHP, JavaScript, CSS*  
-  Lightweight, accessible variation swatches plugin replacing traditional HTML `<select>` variation dropdowns with responsive color swatches and button pickers. Zero external dependencies and native WooCommerce form integration.
+  Lightweight, accessible variation swatches plugin replacing traditional HTML `<select>` variation dropdowns with responsive color swatches and button pickers. Zero external dependencies and native WooCommerce form integration. 🎯
 
 ---
 
-### Headless Libraries & Native Toolkits
+### ⚙️ Headless Libraries & Native Toolkits
 
 - **[product-variants-core](https://www.npmjs.com/package/product-variants-core)**  
   *Stack: TypeScript / Node.js*  
-  Type-safe JavaScript/TypeScript core library for headless CPQ and variant logic. Generates valid variant permutations, enforces JSON conditional constraint rules (e.g., mutually exclusive options), and computes dynamic price modifiers.
+  Type-safe JavaScript/TypeScript core library for headless CPQ and variant logic. Generates valid variant permutations, enforces JSON conditional constraint rules (e.g., mutually exclusive options), and computes dynamic price modifiers. 🧩
 
 ---
 
-## How to Contribute
+## ⭐ Star History
 
-Contributions to expand this curated list are welcome!
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Product-Customization&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Product-Customization&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and using this repository! 🙏 If you find this curated directory useful for your ecommerce store, client projects, or technical research, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it
+- 🍴 **Fork it** and contribute new tools or updates
+- 📢 **Share it** with fellow merchants, architects, and theme developers
+- ☕ **Buy me a coffee / sponsor ongoing maintenance**: Support via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)
+
+Every contribution and star is deeply appreciated! 🌟
+
+---
+
+## 🤝 How to Contribute
+
+Contributions to expand this curated list are welcome! 🚀
 
 1. Fork the repository.
 2. Add your SaaS product or open-source repository into the appropriate section.
@@ -130,7 +162,7 @@ Contributions to expand this curated list are welcome!
 
 ---
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 - This repository is a community-maintained curated educational directory and does not constitute commercial endorsement.
 - All product names, trademarks, and registered trademarks are property of their respective owners.
