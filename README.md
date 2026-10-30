@@ -28,7 +28,7 @@
 - [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
-  - [Repositories (Ranked by GitHub Stars)](#-repositories-ranked-by-github-stars)
+  - [Repositories (Ranked by GitHub_Stars)](#-repositories-ranked-by-github-stars)
 - [⚙️ Headless Libraries & Native Toolkits](#️-headless-libraries--native-toolkits)
 - [⭐ Star History](#-star-history)
 - [💖 Support & Sponsorship](#-support--sponsorship)
@@ -65,67 +65,67 @@ Below is a curated comparison of leading hosted SaaS product customization platf
 
 ## 💻 Open-Source GitHub Projects
 
-Open-source product customization repositories sorted descending by GitHub star count. Each entry links to the official repository and includes an interactive social Stars Badge linking directly to the repo's stargazers. 🌟
+Open-source product customization repositories sorted descending by GitHub Stars_Count. Each entry links to the official repository and includes an interactive social Stars_Badge linking directly to the repo's stargazers. 🌟
 
-### Repositories (Ranked by GitHub Stars)
+### Repositories (Ranked by GitHub_Stars)
 
-- **[threejs-3d-room-designer](https://github.com/CodyMQ/threejs-3d-room-designer)** [![GitHub Stars](https://img.shields.io/github/stars/CodyMQ/threejs-3d-room-designer?style=social&color=white)](https://github.com/CodyMQ/threejs-3d-room-designer/stargazers)  
+- **[threejs-3d-room-designer](https://github.com/CodyMQ/threejs-3d-room-designer)** [![GitHub_Stars](https://img.shields.io/github/stars/CodyMQ/threejs-3d-room-designer?style=social&color=white)](https://github.com/CodyMQ/threejs-3d-room-designer/stargazers)  
   *Stack: React.js, Three.js, WebGL*  
   Comprehensive browser-based 3D room planner and modular product configurator. Demonstrates real-time texture mapping, dynamic material swaps, spatial dimension scaling, and 3D scene customization for home goods and interior fixtures. 🛋️
 
-- **[pledra/odoo-product-configurator](https://github.com/pledra/odoo-product-configurator)** [![GitHub Stars](https://img.shields.io/github/stars/pledra/odoo-product-configurator?style=social&color=white)](https://github.com/pledra/odoo-product-configurator/stargazers)  
+- **[pledra/odoo-product-configurator](https://github.com/pledra/odoo-product-configurator)** [![GitHub_Stars](https://img.shields.io/github/stars/pledra/odoo-product-configurator?style=social&color=white)](https://github.com/pledra/odoo-product-configurator/stargazers)  
   *Stack: Python, Odoo ERP*  
   The foundational open-source Odoo framework enabling dynamic product configuration, multi-attribute dependencies, dynamic bill-of-materials (BOM) creation, and automated variant pricing. ⚙️
 
-- **[Industry-Product-Configurator](https://github.com/Unity-Technologies/Industry-Product-Configurator)** [![GitHub Stars](https://img.shields.io/github/stars/Unity-Technologies/Industry-Product-Configurator?style=social&color=white)](https://github.com/Unity-Technologies/Industry-Product-Configurator/stargazers)  
+- **[Industry-Product-Configurator](https://github.com/Unity-Technologies/Industry-Product-Configurator)** [![GitHub_Stars](https://img.shields.io/github/stars/Unity-Technologies/Industry-Product-Configurator?style=social&color=white)](https://github.com/Unity-Technologies/Industry-Product-Configurator/stargazers)  
   *Stack: Unity, C#, WebGL / Multi-platform*  
   Lightweight industrial product configurator framework authored by Unity Technologies. Supports visibility toggling, material variants, camera preset transitions, and transform animations for complex mechanical, automotive, and industrial goods. 🚗
 
-- **[cup-demo](https://github.com/iosorin/cup-demo)** [![GitHub Stars](https://img.shields.io/github/stars/iosorin/cup-demo?style=social&color=white)](https://github.com/iosorin/cup-demo/stargazers)  
+- **[cup-demo](https://github.com/iosorin/cup-demo)** [![GitHub_Stars](https://img.shields.io/github/stars/iosorin/cup-demo?style=social&color=white)](https://github.com/iosorin/cup-demo/stargazers)  
   *Stack: Nuxt.js, Three.js, Fabric.js*  
   Full-featured interactive 3D product customizer combining Three.js 3D viewport rendering with Fabric.js 2D canvas editing. Allows shoppers to apply personalized text, decals, and graphics with live 3D wrap previews. ☕
 
-- **[threejs-t-shirt](https://github.com/Starklord17/threejs-t-shirt)** [![GitHub Stars](https://img.shields.io/github/stars/Starklord17/threejs-t-shirt?style=social&color=white)](https://github.com/Starklord17/threejs-t-shirt/stargazers)  
+- **[threejs-t-shirt](https://github.com/Starklord17/threejs-t-shirt)** [![GitHub_Stars](https://img.shields.io/github/stars/Starklord17/threejs-t-shirt?style=social&color=white)](https://github.com/Starklord17/threejs-t-shirt/stargazers)  
   *Stack: React, Three.js, Vite, Tailwind CSS*  
   Interactive 3D t-shirt customization web app with real-time color picking, custom logo image uploads, and full-surface procedural pattern generation rendered via Three.js. 👕
 
-- **[OCA/product-configurator](https://github.com/OCA/product-configurator)** [![GitHub Stars](https://img.shields.io/github/stars/OCA/product-configurator?style=social&color=white)](https://github.com/OCA/product-configurator/stargazers)  
+- **[OCA/product-configurator](https://github.com/OCA/product-configurator)** [![GitHub_Stars](https://img.shields.io/github/stars/OCA/product-configurator?style=social&color=white)](https://github.com/OCA/product-configurator/stargazers)  
   *Stack: Python, Odoo ERP*  
   Enterprise-grade Odoo dynamic product configurator maintained by the Odoo Community Association (OCA). Handles complex multi-level attribute dependencies, dynamic bill-of-materials (BOM) generation, and real-time sales price calculation. 📦
 
-- **[PululuK/democustomfields17](https://github.com/PululuK/democustomfields17)** [![GitHub Stars](https://img.shields.io/github/stars/PululuK/democustomfields17?style=social&color=white)](https://github.com/PululuK/democustomfields17/stargazers)  
+- **[PululuK/democustomfields17](https://github.com/PululuK/democustomfields17)** [![GitHub_Stars](https://img.shields.io/github/stars/PululuK/democustomfields17?style=social&color=white)](https://github.com/PululuK/democustomfields17/stargazers)  
   *Stack: PHP, PrestaShop*  
   PrestaShop module implementation demonstrating native custom product fields, file uploads, text personalization attributes, and persistence across customer cart and checkout workflows. 🏬
 
-- **[woocommerce-product-customizer](https://github.com/marcusig/woocommerce-product-customizer)** [![GitHub Stars](https://img.shields.io/github/stars/marcusig/woocommerce-product-customizer?style=social&color=white)](https://github.com/marcusig/woocommerce-product-customizer/stargazers)  
+- **[woocommerce-product-customizer](https://github.com/marcusig/woocommerce-product-customizer)** [![GitHub_Stars](https://img.shields.io/github/stars/marcusig/woocommerce-product-customizer?style=social&color=white)](https://github.com/marcusig/woocommerce-product-customizer/stargazers)  
   *Stack: PHP, WordPress, WooCommerce*  
   WooCommerce product configurator and visual customization engine allowing shoppers to configure physical goods with real-time live preview layers prior to cart addition. 🎨
 
-- **[react-product-configurator](https://github.com/mbpictures/react-product-configurator)** [![GitHub Stars](https://img.shields.io/github/stars/mbpictures/react-product-configurator?style=social&color=white)](https://github.com/mbpictures/react-product-configurator/stargazers)  
+- **[react-product-configurator](https://github.com/mbpictures/react-product-configurator)** [![GitHub_Stars](https://img.shields.io/github/stars/mbpictures/react-product-configurator?style=social&color=white)](https://github.com/mbpictures/react-product-configurator/stargazers)  
   *Stack: React, JavaScript, CSS3*  
   Modular React visual product configurator featuring multi-part product option selection, live image layer compositing, and price recalculation. 🧩
 
-- **[3d-product-configurator](https://github.com/Madewill/3d-product-configurator)** [![GitHub Stars](https://img.shields.io/github/stars/Madewill/3d-product-configurator?style=social&color=white)](https://github.com/Madewill/3d-product-configurator/stargazers)  
+- **[3d-product-configurator](https://github.com/Madewill/3d-product-configurator)** [![GitHub_Stars](https://img.shields.io/github/stars/Madewill/3d-product-configurator?style=social&color=white)](https://github.com/Madewill/3d-product-configurator/stargazers)  
   *Stack: React, React Three Fiber, Three.js*  
   Modern 3D product configurator demonstrating interactive mesh material swaps, color palette pickers, and dynamic lighting presets on 3D GLTF models. 👟
 
-- **[customizr](https://github.com/carolineschnapp/customizr)** [![GitHub Stars](https://img.shields.io/github/stars/carolineschnapp/customizr?style=social&color=white)](https://github.com/carolineschnapp/customizr/stargazers)  
+- **[customizr](https://github.com/carolineschnapp/customizr)** [![GitHub_Stars](https://img.shields.io/github/stars/carolineschnapp/customizr?style=social&color=white)](https://github.com/carolineschnapp/customizr/stargazers)  
   *Stack: JavaScript, Liquid, Shopify Theme Architecture*  
   Pioneering open-source Shopify customization module designed by Caroline Schnapp. Demonstrates headless line-item properties injection, dynamic custom form elements, and file upload handlers for bespoke order details. 🛍️
 
-- **[vtex-apps/product-customizer](https://github.com/vtex-apps/product-customizer)** [![GitHub Stars](https://img.shields.io/github/stars/vtex-apps/product-customizer?style=social&color=white)](https://github.com/vtex-apps/product-customizer/stargazers)  
+- **[vtex-apps/product-customizer](https://github.com/vtex-apps/product-customizer)** [![GitHub_Stars](https://img.shields.io/github/stars/vtex-apps/product-customizer?style=social&color=white)](https://github.com/vtex-apps/product-customizer/stargazers)  
   *Stack: TypeScript, React, VTEX IO*  
   Official VTEX IO storefront product customizer app. Renders dynamic assembly options, attachment items, text personalization fields, and complex add-on services directly integrated into VTEX checkout. 🔌
 
-- **[uploadcare-custom-shopify-theme](https://github.com/yablochki95/uploadcare-custom-shopify-theme)** [![GitHub Stars](https://img.shields.io/github/stars/yablochki95/uploadcare-custom-shopify-theme?style=social&color=white)](https://github.com/yablochki95/uploadcare-custom-shopify-theme/stargazers)  
+- **[uploadcare-custom-shopify-theme](https://github.com/yablochki95/uploadcare-custom-shopify-theme)** [![GitHub_Stars](https://img.shields.io/github/stars/yablochki95/uploadcare-custom-shopify-theme?style=social&color=white)](https://github.com/yablochki95/uploadcare-custom-shopify-theme/stargazers)  
   *Stack: Liquid, JavaScript, Uploadcare API*  
   Custom Shopify theme with seamless Uploadcare integration for advanced customer file uploads, high-res image manipulation, and media validation for print-on-demand and engraving products. 📸
 
-- **[friends-of-presta/products](https://github.com/friends-of-presta/products)** [![GitHub Stars](https://img.shields.io/github/stars/friends-of-presta/products?style=social&color=white)](https://github.com/friends-of-presta/products/stargazers)  
+- **[friends-of-presta/products](https://github.com/friends-of-presta/products)** [![GitHub_Stars](https://img.shields.io/github/stars/friends-of-presta/products?style=social&color=white)](https://github.com/friends-of-presta/products/stargazers)  
   *Stack: PHP, PrestaShop 1.7 / 8*  
   Community-maintained PrestaShop product customization module delivering extended custom fields, text engraving validations, and order item attachments. 🛒
 
-- **[snelgraveren-product-designer](https://github.com/temmink/snelgraveren-product-designer)** [![GitHub Stars](https://img.shields.io/github/stars/temmink/snelgraveren-product-designer?style=social&color=white)](https://github.com/temmink/snelgraveren-product-designer/stargazers)  
+- **[snelgraveren-product-designer](https://github.com/temmink/snelgraveren-product-designer)** [![GitHub_Stars](https://img.shields.io/github/stars/temmink/snelgraveren-product-designer?style=social&color=white)](https://github.com/temmink/snelgraveren-product-designer/stargazers)  
   *Stack: PHP, JavaScript, Canvas, WooCommerce*  
   Drag-and-drop web-to-print and laser-engraving designer for WooCommerce. Supports custom SVG text pathing, bitmap photo uploads, bounding-box constraints, and print-ready vector/raster exports. 🖨️
 
@@ -174,7 +174,7 @@ Contributions to expand this curated list are welcome! 🚀
 2. Add your SaaS product or open-source repository into the appropriate section.
 3. For open-source entries, ensure you include:
    - Name and direct GitHub link
-   - Social Stars Badge (`style=social&color=white`) linking directly to the repo's `/stargazers`
+   - Social Stars_Badge (`style=social&color=white`) linking directly to the repo's `/stargazers`
    - Primary tech stack and 1–2 factual description sentences
 4. For SaaS entries, supply accurate pricing and transparent free-tier/trial terms.
 5. Submit a Pull Request with a concise summary of additions.
