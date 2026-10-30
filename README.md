@@ -172,3 +172,105 @@ Contributions to expand this curated list are welcome! 🚀
 - All product names, trademarks, and registered trademarks are property of their respective owners.
 - Security note: Production customization engines handling uploaded files and personalized user input must enforce strict file format whitelisting, antivirus/malware scanning, and PII protection compliance (GDPR/CCPA).
 >>>>>>> 798d6816c39672008f19c03c4012fe507b8e1738
+# Awesome-Product-Customization
+**Top Product Customization (Opensource) 🌟 Star if you like it! 🌟**
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**
+*Focused on Product Options, Variant Expansion, File Uploads & Personalization Workflows*
+**Last updated: October 2026**
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Product Customization**. These tools enable merchants to offer personalized products—engraving, monograms, file uploads, conditional option fields, and variant expansion—from fully managed Shopify apps with conditional logic and live previews to open-source frameworks and developer references that give teams control over customization data and workflows.
+
+**Examples** include Shopify Line-Item Properties, Bold Product Options, Infinite Options, Hulk Product Options, Zepto Product Personalizer, Variant Option Product Options, Customify, Kickflip, King Product Options, and TailorKit (the category leaders and developer tools in commercial space).
+
+**Open-source emphasis**: This section is expanded with every relevant project for self-hosting, product personalization, and open customization infrastructure. **Critical note**: True open-source Shopify product customization apps—production-ready with conditional logic, file uploads, and live previews—do not exist. The projects below are **customizer frontends**, **developer SDKs**, or **MCP integrations** that require you to build or operate the backend. For merchants wanting a working app, commercial options remain the practical path.
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+- **[Shopify Line-Item Properties](https://shopify.dev/docs/storefronts/themes/architecture/properties)** (**Native**)
+  **Built-in customization data attachment** for cart lines and orders. Supports text inputs, dropdowns, checkboxes, and simple file references, attached to the line item and visible in the admin and order data . **Pricing**: Free with Shopify. **Free tier**: Yes. **Best for**: merchants needing basic text or simple selections without advanced workflows—**not suitable for multi-file uploads, validation, or conditional logic** .
+
+- **[SC Product Options (formerly Bold)](https://apps.shopify.com/product-options)**
+  **The most established Shopify product options app** (founded 2012), now operated by Shop Circle. **Pricing**: **Free** developer edition; **Basic** $14.99/month (unlimited options, file uploads); **Advanced** $39.99/month (conditional logic, pricing add-ons, cart editing, color samples) . **Free tier**: Developer stores only. **Best for**: merchants wanting a proven, feature-rich options app with a long track record—**note**: reviews report post-acquisition support and sync issues .
+
+- **[Infinite Options](https://apps.shopify.com/custom-options)** (ShopPad)
+  **Flexible product options app** with text boxes, dropdowns, checkboxes, swatches, conditional logic, and add-on pricing. **Pricing**: **Essential** $12.99/month . **Free tier**: None. **Best for**: merchants wanting a straightforward options app at a low monthly cost.
+
+- **[Hulk Product Options](https://apps.shopify.com/product-options-4)**
+  **Tiered options app** with 12–20+ option types, file uploads, and conditional logic (Advanced+). **Pricing**: **Basic** $10/month (12 option types, no conditional logic); **Advanced** $20/month (20 types, conditional logic, cart editing); **Enterprise** $49.90/month (inventory/SKU management, formula options, POS) . **Free tier**: Development stores only. **Best for**: merchants wanting granular tier options with predictable pricing—**conditional logic requires Advanced** .
+
+- **[Zepto Product Personalizer](https://apps.shopify.com/product-personalizer)**
+  **Visual personalization app with live preview** and 1,400+ reviews averaging 4.9. Installed on ~8,354 stores . **Pricing**: Quote-only; tiered by features. **Free tier**: None. **Best for**: merchants selling personalized products needing live visual previews (names, images, themes)—**strong support reputation** .
+
+- **[Variant Option Product Options](https://apps.shopify.com/variant-option-product-options)** (Relentless Apps)
+  **Variant expansion and options app** installed on ~26,700 stores, rated 4.6 . **Pricing**: Quote-only; tiered. **Free tier**: None. **Best for**: merchants hitting Shopify's option limits and needing variant add-ons without rebuilding products.
+
+- **[Customify](https://apps.shopify.com/customify)**
+  **Custom product builder** installed on ~1,761 stores, rated 4.4 . **Pricing**: Quote-only. **Free tier**: None. **Best for**: merchants wanting a product builder interface for configurable products.
+
+- **[Kickflip](https://gokickflip.com/)**
+  **Product customizer with visual design tools**. Integrates via Shopify App Embed to replace the product page with a customizer or add a "Customize" button . **Pricing**: Quote-only. **Free tier**: None. **Best for**: merchants selling designed products (apparel, print) needing an interactive design canvas.
+
+- **[King Product Options](https://apps.shopify.com/king-product-options)** (Ymq)
+  **High-install options app** on ~43,929 stores, rated 4.7—but installs declined 40% year-over-year . **Pricing**: Quote-only. **Free tier**: None. **Best for**: merchants wanting an established options app with broad adoption—**investigate the declining install trend before committing**.
+
+- **[TailorKit](https://tailorkit.com/)** (**Developer Tool**)
+  **Product customization framework** with template management, layer control, and Shopify integration. **Open-source MCP server** (MIT) connects AI assistants to the TailorKit API for natural-language template management . **Pricing**: Framework/SaaS pricing; MCP server free (MIT). **Free tier**: MCP server is open-source. **Best for**: developers wanting to build personalization experiences with AI-assisted template management.
+
+## Open-Source GitHub Projects
+
+- **[TailorKit MCP](https://github.com/sellersmith/tailorkit-mcp)**
+  **Open-source MCP server for product customization templates** (MIT) — **the most directly relevant open-source tool for AI-driven product customization management**. **Features**: Connects Claude and other AI assistants to the TailorKit API; tools include `get_list_templates`, `get_detail_template`, `create_template`, and `get_list_layers_of_template`; enables natural-language management of customizable product templates and layers . **Tech stack**: Node.js, TypeScript. **Deploy**: npm (`@sellersmith/tailorkit-mcp`) or from GitHub . **Trade-off**: **Requires TailorKit API access and account**—it is an integration layer, not a standalone customizer. No frontend, no file upload handling, no Shopify storefront integration on its own. **Best for**: developers already using TailorKit wanting AI-assisted template management workflows.
+
+- **[pastel-charms](https://github.com/noorfatma160207-dotcom/pastel-charms)**
+  **Interactive SVG bracelet customizer** (license per repo) — **a working reference for visual product customization with real-time preview**. **Features**: Real-time SVG rendering of beads and letter beads as users type; 7 color palettes and 3 letter styles; spacers and charms; **dynamic price engine** updating in real time; persistent cart via localStorage; WhatsApp order generation . **Tech stack**: HTML5, CSS3, Vanilla JavaScript, SVG. **Deploy**: Static hosting (open `index.html` or `python -m http.server`) . **Trade-off**: **Static demo for handmade bracelets**—no backend, no payment processing, no Shopify integration. It is a **visual customizer reference**, not a platform. **Best for**: developers wanting a working example of SVG-based live product preview and price calculation.
+
+- **[t-shirt-customizer](https://github.com/jaimin0609/t-shirt-customizer)**
+  **Full-stack T-shirt customization application** (MIT) — **a complete reference for design-on-product workflows**. **Features**: Text, image, and design customization; **3D preview** via Three.js; user authentication; cart and checkout; admin panel for products and orders . **Tech stack**: React, Vite, Three.js, Node.js, Express, Sequelize, MySQL/PostgreSQL, JWT. **Deploy**: Self-hosted (backend + frontend) . **Trade-off**: **Standalone application, not a Shopify app**—no Shopify integration, no metafield handling, no order data mapping to Shopify line items. **Best for**: developers building a standalone custom merchandise platform, or wanting a reference for 3D product preview.
+
+- **[Crex](https://github.com/albykennady/Crex)**
+  **Merchandise customization platform with canvas editing** (license per repo) — **a Firebase-backed design tool reference**. **Features**: Fabric.js canvas for logos and graphics; real-time preview; saved projects; cart and order management; Firebase Auth, Firestore, and Storage . **Tech stack**: HTML5, JavaScript, Fabric.js, Firebase. **Deploy**: Static hosting (open `index.html` via Live Server) . **Trade-off**: **Internal-use platform**—no Shopify integration, no payment processing, no production hardening. **Best for**: developers wanting a reference for Fabric.js-based product design canvases.
+
+- **[WooCommerce Products Designer](https://github.com/common-repository/woocommerce-products-designer)**
+  **WooCommerce product design plugin** (GPLv2) — **the most mature open-source customizer for WooCommerce**. **Features**: Web-to-print design tool for t-shirts, mugs, cards, and more; clipart libraries, text and image editors, multiple output formats; WPML compatible. **Pro features**: templates, design saving, SVG/PDF outputs, print-ready files with bleed zones, custom pricing rules . **Tech stack**: PHP (WordPress/WooCommerce). **Deploy**: WordPress plugin. **Trade-off**: **WooCommerce-specific**—not usable on Shopify. Pro features require paid upgrade. **Best for**: WooCommerce merchants wanting a self-hosted product designer plugin.
+
+### Additional Strong Open-Source Options
+
+- **Shopify Hydrogen `getProductOptions`** — Official Hydrogen utility for handling product options and variants (including 2,000+ variant support) . **Note**: Developer utility, not a customizer—handles option display and selection, not file uploads or personalization fields . **Best for**: Hydrogen developers building custom storefronts needing robust option handling.
+- **shopify-mcp** — MCP server for Shopify Admin API (MIT, 31 tools) including `manage-product-options` and `manage-product-variants` . **Note**: API automation tool, not a customer-facing customizer—enables AI assistants to create and modify product options programmatically . **Best for**: developers wanting to automate product option management via AI assistants.
+
+**Frameworks for building custom systems**: Combine **pastel-charms** as a reference for SVG preview logic with **t-shirt-customizer** for 3D rendering and full-stack patterns, **TailorKit MCP** for AI-assisted template management if using TailorKit, and **WooCommerce Products Designer** for WooCommerce deployments—creating a customization stack. **None of these provide a turnkey Shopify product options app** with conditional logic, file uploads, and order data mapping—those require commercial apps or custom Shopify app development.
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Product customization platforms handling customer-uploaded files and personalization data must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate file validation and storage security.
+- **The "Shopify app" vs. "developer framework/SDK" vs. "standalone customizer reference" distinction is critical.** **SC Product Options, Infinite Options, Hulk, Zepto, Variant Option, Customify, Kickflip, and King** are **Shopify apps**—they install into a store and work with Shopify's cart and order data. **TailorKit MCP** is a **developer integration**—it requires TailorKit API access and does not render a customizer UI. **pastel-charms, t-shirt-customizer, and Crex** are **standalone references**—they demonstrate customization patterns but have no Shopify integration. **WooCommerce Products Designer** is **WooCommerce-specific**. **No open-source project provides a production-ready Shopify product options app.**
+- **Shopify's native line-item properties are limited.** They handle small text fields well but are **not a file-management system**—multiple uploads, validation, conditional fields, and DPI/dimension enforcement are not supported . For anything beyond simple text, an app is the practical path.
+- **Conditional logic is a paid-tier feature across all apps.** Infinite Options includes it on Essential . Hulk requires Advanced ($20/month) . SC Product Options requires Advanced ($39.99/month) . **Do not expect conditional workflows on free or basic tiers.**
+- **Zepto's support reputation is notably strong**, with reviews consistently praising 24/7 responsiveness and custom fixes . **King Product Options has broad adoption but declining installs** (-40% YoY)—investigate before committing .
+- **TailorKit MCP is the most interesting open-source project in this space** for developers wanting AI-assisted template management, but it is an integration layer, not a customizer . **pastel-charms is the best working reference for live visual preview** with dynamic pricing .
+- **Pricing opacity varies.** Infinite Options publishes $12.99/month . Hulk publishes tiered pricing ($10–$49.90) . SC Product Options publishes tiers ($14.99–$39.99) . Zepto, Variant Option, Customify, Kickflip, and King require sales contact. **Validate with direct vendor conversations against your option complexity and order volume.**
+- Self-hosted open-source solutions require proper setup, file storage security, and ongoing maintenance. **Customer-uploaded files can contain sensitive content**—ensure your deployment includes file validation, storage access controls, and compliance with your organization's security standards before accepting uploads.
+
+---
+
+**Made for developers, merchants, and organizations building transparent product customization solutions.**
+Let's make Product Customization more open, data-driven, and merchant-friendly.
